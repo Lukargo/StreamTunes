@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FD49FB146226CF00D221A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD49FA146226CF00D221A6 /* UIKit.framework */; };
+		A3FD49FD146226CF00D221A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD49FC146226CF00D221A6 /* Foundation.framework */; };
+		A3FD49FF146226CF00D221A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FD49FE146226CF00D221A6 /* CoreGraphics.framework */; };
+		A3FD4A05146226CF00D221A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3FD4A03146226CF00D221A6 /* InfoPlist.strings */; };
+		A3FD4A07146226CF00D221A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD4A06146226CF00D221A6 /* main.m */; };
+		A3FD4A0B146226CF00D221A6 /* StreamTunesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD4A0A146226CF00D221A6 /* StreamTunesAppDelegate.m */; };
+		A3FD4A0E146226CF00D221A6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FD4A0C146226CF00D221A6 /* MainStoryboard.storyboard */; };
+		A3FD4A11146226CF00D221A6 /* StreamTunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD4A10146226CF00D221A6 /* StreamTunesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3FD49F6146226CF00D221A6 /* StreamTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FD49FA146226CF00D221A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3FD49FC146226CF00D221A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3FD49FE146226CF00D221A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3FD4A02146226CF00D221A6 /* StreamTunes-Info.plist */ = {isa = PBXFileReference; path = "StreamTunes-Info.plist"; sourceTree = "<group>"; };
+		A3FD4A04146226CF00D221A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3FD4A06146226CF00D221A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3FD4A08146226CF00D221A6 /* StreamTunes-Prefix.pch */ = {isa = PBXFileReference; path = "StreamTunes-Prefix.pch"; sourceTree = "<group>"; };
+		A3FD4A09146226CF00D221A6 /* StreamTunesAppDelegate.h */ = {isa = PBXFileReference; path = StreamTunesAppDelegate.h; sourceTree = "<group>"; };
+		A3FD4A0A146226CF00D221A6 /* StreamTunesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamTunesAppDelegate.m; sourceTree = "<group>"; };
+		A3FD4A0D146226CF00D221A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3FD4A0F146226CF00D221A6 /* StreamTunesViewController.h */ = {isa = PBXFileReference; path = StreamTunesViewController.h; sourceTree = "<group>"; };
+		A3FD4A10146226CF00D221A6 /* StreamTunesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreamTunesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FD49F3146226CF00D221A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD49FB146226CF00D221A6 /* UIKit.framework in Frameworks */,
+				A3FD49FD146226CF00D221A6 /* Foundation.framework in Frameworks */,
+				A3FD49FF146226CF00D221A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FD49EB146226CA00D221A6 = {
+			isa = PBXGroup;
+			children = (
+				A3FD4A00146226CF00D221A6 /* StreamTunes */,
+				A3FD49F9146226CF00D221A6 /* Frameworks */,
+				A3FD49F7146226CF00D221A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FD49F7146226CF00D221A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD49F6146226CF00D221A6 /* StreamTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FD49F9146226CF00D221A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD49FA146226CF00D221A6 /* UIKit.framework */,
+				A3FD49FC146226CF00D221A6 /* Foundation.framework */,
+				A3FD49FE146226CF00D221A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3FD4A00146226CF00D221A6 /* StreamTunes */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD4A09146226CF00D221A6 /* StreamTunesAppDelegate.h */,
+				A3FD4A0A146226CF00D221A6 /* StreamTunesAppDelegate.m */,
+				A3FD4A0C146226CF00D221A6 /* MainStoryboard.storyboard */,
+				A3FD4A0F146226CF00D221A6 /* StreamTunesViewController.h */,
+				A3FD4A10146226CF00D221A6 /* StreamTunesViewController.m */,
+				A3FD4A01146226CF00D221A6 /* Supporting Files */,
+			);
+			path = StreamTunes;
+			sourceTree = "<group>";
+		};
+		A3FD4A01146226CF00D221A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FD4A02146226CF00D221A6 /* StreamTunes-Info.plist */,
+				A3FD4A03146226CF00D221A6 /* InfoPlist.strings */,
+				A3FD4A06146226CF00D221A6 /* main.m */,
+				A3FD4A08146226CF00D221A6 /* StreamTunes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FD49F5146226CF00D221A6 /* StreamTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FD4A14146226CF00D221A6 /* Build configuration list for PBXNativeTarget "StreamTunes" */;
+			buildPhases = (
+				A3FD49F2146226CF00D221A6 /* Sources */,
+				A3FD49F3146226CF00D221A6 /* Frameworks */,
+				A3FD49F4146226CF00D221A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreamTunes;
+			productName = StreamTunes;
+			productReference = A3FD49F6146226CF00D221A6 /* StreamTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FD49ED146226CA00D221A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Southeast Community College";
+			};
+			buildConfigurationList = A3FD49F0146226CB00D221A6 /* Build configuration list for PBXProject "StreamTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3FD49EB146226CA00D221A6;
+			productRefGroup = A3FD49F7146226CF00D221A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FD49F5146226CF00D221A6 /* StreamTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FD49F4146226CF00D221A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD4A05146226CF00D221A6 /* InfoPlist.strings in Resources */,
+				A3FD4A0E146226CF00D221A6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FD49F2146226CF00D221A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FD4A07146226CF00D221A6 /* main.m in Sources */,
+				A3FD4A0B146226CF00D221A6 /* StreamTunesAppDelegate.m in Sources */,
+				A3FD4A11146226CF00D221A6 /* StreamTunesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3FD4A03146226CF00D221A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FD4A04146226CF00D221A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3FD4A0C146226CF00D221A6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FD4A0D146226CF00D221A6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FD4A12146226CF00D221A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A3FD4A13146226CF00D221A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FD4A15146226CF00D221A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamTunes/StreamTunes-Prefix.pch";
+				INFOPLIST_FILE = "StreamTunes/StreamTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3FD4A16146226CF00D221A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreamTunes/StreamTunes-Prefix.pch";
+				INFOPLIST_FILE = "StreamTunes/StreamTunes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FD49F0146226CB00D221A6 /* Build configuration list for PBXProject "StreamTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FD4A12146226CF00D221A6 /* Debug */,
+				A3FD4A13146226CF00D221A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FD4A14146226CF00D221A6 /* Build configuration list for PBXNativeTarget "StreamTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FD4A15146226CF00D221A6 /* Debug */,
+				A3FD4A16146226CF00D221A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FD49ED146226CA00D221A6 /* Project object */;
+}
